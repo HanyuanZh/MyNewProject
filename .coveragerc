@@ -1,0 +1,6 @@
+[run]
+omit = 
+        ./mynewproject/_version.py
+        ./mynewproject/__init__.py
+        ./mynewproject/__main__.py
+        ./mynewproject/ui/mynewproject_command_line.py

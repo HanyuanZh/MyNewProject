@@ -1,0 +1,2 @@
+include versioneer.py
+include mynewproject/_version.py
