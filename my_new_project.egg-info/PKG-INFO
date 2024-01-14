@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: my-new-project
+Version: 0.0.0
+Summary: My New Project is a Python package
+Author-email: hanyuan <YOUR-EMAIL@ucl.ac.uk>
+License: BSD-3 license
+Project-URL: homepage, https://github.com/HanyuanZh/MyNewProject
+Keywords: Medical image computing
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: BSD License
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: mock; extra == "dev"
+Requires-Dist: pyfakefs; extra == "dev"
+Requires-Dist: parameterized; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pyinstaller; extra == "dev"
+Requires-Dist: tox>=4; extra == "dev"
+Requires-Dist: tox-conda; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: six; extra == "dev"
+Requires-Dist: docutils; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
+Requires-Dist: sphinx_rtd_theme; extra == "dev"

@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_new_project"
+description= "My New Project is a Python package"
+authors=[
+	{name="hanyuan", email="YOUR-EMAIL@ucl.ac.uk"},
+]
+license={text="BSD-3 license"}
+keywords=["Medical image computing"]
+classifiers=[
+	"Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python",
+	'Intended Audience :: Developers',
+	'Intended Audience :: Healthcare Industry',
+	'Intended Audience :: Information Technology',
+	'Intended Audience :: Science/Research',
+	"Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+	"Topic :: Scientific/Engineering :: Artificial Intelligence",
+	"License :: OSI Approved :: BSD License",
+	
+]
+dependencies = [
+	"numpy",
+]
+optional-dependencies = {dev = [
+    "twine",
+	"coverage",
+	"mock",
+	"pyfakefs",
+	"parameterized",
+	"pylint",
+	"pytest",
+	"pyinstaller",
+    "tox>=4",
+	"tox-conda",
+	"build",
+	"six",
+	"docutils",
+	"sphinx",
+	"sphinx_rtd_theme",
+]}
+dynamic = [
+    "version",
+]
+
+[project.urls]
+homepage = "https://github.com/HanyuanZh/MyNewProject"
+
+[tool.setuptools.packages.find]
+include=[""]
+exclude=["doc", "tests"]
+
+[project.scripts]
+mynewproject="mynewproject.__main__:main"

@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+versioneer.py
+my_new_project.egg-info/PKG-INFO
+my_new_project.egg-info/SOURCES.txt
+my_new_project.egg-info/dependency_links.txt
+my_new_project.egg-info/entry_points.txt
+my_new_project.egg-info/requires.txt
+my_new_project.egg-info/top_level.txt
+mynewproject/_version.py
+tests/test_mynewproject.py
